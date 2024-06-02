@@ -506,3 +506,9 @@ body {
         font-size: 14px; 
     }
 }
+
+<script>
+let btnBack = document.querySelector('button');
+btnBack.addEventListener('click', () => {
+    window.history.back();
+});
